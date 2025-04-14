@@ -53,7 +53,7 @@ public class Main {
             System.out.println("Месяц " + o + " ,сумма накоплений равна " + bankInterest + " рублей.");
         }
         System.out.println("Task 10");
-        //Task 10
+        //Task  10
         int a = 0;
         for (int p = 1; p <= 10; p++) {
           a = 2 * p;
