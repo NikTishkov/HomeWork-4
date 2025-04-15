@@ -47,7 +47,7 @@ public class Main {
         //Task 9
         int moneyInTheBank = 29000;
         int bankInterest = 0;
-        for (int o = 1; o <= 12; o++) {
+        for (int o = 0; o <= 12; o++) {
             bankInterest = bankInterest + bankInterest/100;
            bankInterest = moneyInTheBank + bankInterest;
             System.out.println("Месяц " + o + " ,сумма накоплений равна " + bankInterest + " рублей.");
